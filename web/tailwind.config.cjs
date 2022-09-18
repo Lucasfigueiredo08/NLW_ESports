@@ -6,6 +6,9 @@ module.exports = {
     './index.html' //incluir arquivos que o tailwind precisa importar no design
   ],
   theme: {
+    fontFamily:{
+      sans: ['Inter', 'sans-serif']
+    },
     // extender o background
     extend: {
       backgroundImage: {
