@@ -1,0 +1,6 @@
+    No package.json
+    --exit-child é uma flag necessária para usar ocm o prisma
+
+    Async/Await
+    Se remover o async/await de uma classe assincrona, o retorno será vazio pois o tempo de processamento será
+    muito curto para o objeto (ex: ads da rota /games/:id/ads) receber os dados de anuncios para aquele game.
